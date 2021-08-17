@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<htm>
+    <head>
+        <meta charset="UTF-8">
+        <title>Article Blog</title>
+        <link rel="stylesheet" href="./mystyles.css">
+    </head>
+    <body>
+        <div class="wrapper">
+            <nav class="navbar">
+               <img class="logo" src="./images/logo.jpg">
+                <ul>
+                    <li><a href="#"">home</a></li>
+                    <li><button onclick="openForm()">login</button></li>l
+                </ul>
+            </nav>
+            <H1>
+                ABOUT US
+            </H1>
+        </nav>
+            <p>We are the world's #1 online bootcamp providing digital skills training to help individuals acquire the skills they need to thrive in the digital economy. We provide rigorous online training in disciplines such as Cyber Security, Cloud Computing, Project Management, Digital Marketing, and Data Science, among others. In other words, we specialize in areas where technologies and best practices are changing rapidly, and the demand for qualified candidates significantly exceeds supply.
+            </p>
+            <div class="center">
+                <h1>write related information</h1>
+                <h1>Read Related Informtion</h1>
+            </div>
+        </div>
+    
+   <H1>Present Articles</H1>
+    <div>
+        <ul id="myUL">
+            <li>Being a good communicator is an attribute that invariably finds its way onto every list of highly desirable qualities for any project manager, worldwide.
+               And with good reason: Communication plays a critically important role in Project Management. 
+               If you do not communicate with your team, they will not know what they are supposed to do, or when.And, in turn, if you do not know what your team is doing, 
+                you will not be able to monitor the progress of your project, 
+                which will then lead to failure of the project. </li><br><br>
+            <li>nteractive Communication is a fairly self-explanatory term. As the name suggests, it is a multidirectional form of communication. 
+               When you require an immediate response, and when the information you are communicating is sensitive with the possibility of being misinterpreted, 
+               you turn to interactive communication. It involves one or more people exchanging thoughts and ideas, where participants respond in real-time.</li>
+            <li>Push communication includes memos, letters, emails, reports, faxes, etc. It is not face-to-face but is instead typically done through some written medium.
+               The one disadvantage of this type of communication is that the sender can only identify that the message has been successfully sent. Some email systems 
+               can notify you when an email has been opened, but this feature can’t guarantee that the recipient has understood the message trying to be communicated.</li>
+            <li>Pull communication doesn’t involve pulling in a reader to read your message. Instead, pull communication is all about providing group access to common 
+               information. The receiver, however, must recover this information. This method is used for a large audience who require access to information 
+               for their use.</li>
+        </ul>
+    </div><br><br>
+
+        <div class="header" id="id5">
+            <textarea rows=5 cols=40 ?. id="myInput" placeholder="Enter Your Article" ></textarea>
+        <span onclick="addNewElement()" class="addBtn">Add</span>
+    </div>
+
+    <br />
+    <div class="form-popup" id="myForm">
+        <form >
+          <h1>Login</h1>
+      
+          <label for="email"><b>Email</b></label><br>
+          <input type="text" placeholder="Enter Email" name="email" required><Br><br>
+      
+          <label for="psw"><b>Password</b></label><br>
+          <input type="password" placeholder="Enter Password" name="psw" required><br>
+      
+          <button type="submit" class="btn" onclick="loginForm()">Login</button><br>
+          <button type="submit" class="btn cancel" onclick="closeForm()">Close</button>
+        </form>
+      </div>
+    <script src="./myscript.js"></script>
+        <div class="footer">
+           <div id="m1">
+           <div id="f1">
+               <h1>SimpliLearn</h1>
+           </div>
+           <div id="a1"><h2>About Us</h1>
+            <h4>#NO.1 Online BootCamp</h4>
+            <h4>Phone:9369676577</h4>
+            <email>simple@gmail.com</email>
+
+           </div>
+           <div id="contact">
+              <h2>Contact Us</h2>
+              Email<input type="email"><br><br>
+              phone<input type="text"><br><br>
+              <button>let us know you </button>
+           </div>
+        </div>
+        </div>
+                
+    </body>
+</html>
